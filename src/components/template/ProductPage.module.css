@@ -1,0 +1,35 @@
+.bottom__story{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.filter{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.filter ul{
+    display: flex;
+    margin-right: 5px;
+}
+
+.filter ul li{
+    list-style: none;
+    margin-right: 40px;
+}
+
+.filter ul li:hover{
+    color:#f7ad2a;
+    cursor: pointer;
+}
+
+.menu__card{
+    min-width: 250px;
+}
+
+.menu__card h3{
+    border-bottom: 3px solid orange;
+    width: 120px;
+}

@@ -1,0 +1,76 @@
+.container{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.container h2{
+    border-bottom: 3px solid #f7ad2a;
+    width: 170px;
+    color: #f7ad2a;
+}
+
+.news{
+    background-color: #f7ad2a;
+    display: flex;
+    overflow-x: scroll;
+    margin-top: 30px;
+    border-radius: 10px;
+    
+}
+
+.news div{
+    margin: 30px 20px;
+    background-color: #Efefef;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.img{
+    border-radius: 10px;
+}
+
+.news div div{
+    margin: 20px 0;
+}
+
+.news div div span{
+    margin: 15px 0;
+    display: flex;
+    
+    
+}
+
+.dir{
+    position: absolute;
+    margin: 170px 0px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: wheat;
+    cursor: pointer;
+}
+.left{
+    position: absolute;
+    left: 51px;
+    margin: 170px 0;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: wheat;
+    cursor: pointer;
+}
+
+.dir:hover{
+    opacity: 0.9;
+}
+.left:hover{
+    opacity: 0.9;
+}

@@ -1,0 +1,41 @@
+.container{
+    width: 500px;
+    background-color: #f7ad2a;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.container h3{
+    margin: 10px auto;
+    color: #7d5a03;
+}
+
+.container form{
+    display: flex;
+    flex-direction: column;
+    
+}
+.container form label{
+    margin-right: 5px;
+    margin-top: 25px;
+}
+
+.container form input{
+    width: 400px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: #f7ad2a;
+
+}
+.container button{
+    width: 150px;
+    margin: 30px auto;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+

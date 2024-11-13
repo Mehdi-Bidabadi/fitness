@@ -1,0 +1,37 @@
+.container{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.banner{
+    display: flex;
+    flex-wrap: wrap;
+    direction: ltr;
+    
+}
+
+.up{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+     margin: 0 auto;
+     
+}
+.bottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.image{
+    cursor: pointer;
+    border-radius: 30px;
+}
+

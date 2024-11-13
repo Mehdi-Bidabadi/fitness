@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.container div{
+    margin-top: 50px;
+    
+}
+
+.container div p{
+    width: 1300px;
+}

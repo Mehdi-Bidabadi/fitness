@@ -1,0 +1,19 @@
+.container{
+    width: 100%;
+    margin-top: 110px;
+    margin-bottom: 100px;
+}
+
+.brand{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.brand .image{
+    border-radius: 20px;
+}
+
+.brand .img:hover{
+    opacity: 0.8;
+}

@@ -1,0 +1,119 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.up{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #efefef;
+    width: 50%;
+    height: 50px;
+    border-radius: 10px 0 0 10px;
+    
+}
+.search input{
+    width: 80%;
+    padding: 16px;
+    border-radius: 20px;
+    border: none;
+}
+.search span{
+    
+    display: flex;
+    margin-right: 10px;
+    cursor: pointer;
+    padding: 14px;
+}
+.search div{
+    margin-right: 20px;
+    background-color: #f7ad2a;
+    display: flex;
+    padding: 16px;
+    border-radius: 10px 0 0 10px;
+
+}
+
+.register{
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.register .icone{
+    background-color: #efefef;
+    padding: 20px;
+    border-radius: 50px;
+    display: flex;
+}
+
+.register .reg span{
+    margin: 2px;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+
+
+
+.list ul{
+    display: flex;
+
+}
+.list ul li {
+    list-style: none;
+    margin-right: 40px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #706e6e;
+}
+
+.list ul li:hover{
+    color: #f7ad2a;
+}
+
+.sell{
+    background-color: #f7ad2a;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+.price p{
+    background-color: #efefef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.pp .uu{
+    flex-direction: column;
+    display: none;
+}
+.uu{
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+

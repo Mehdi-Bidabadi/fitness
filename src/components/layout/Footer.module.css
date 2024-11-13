@@ -1,0 +1,30 @@
+.container{
+    margin-top: 50px;
+}
+
+.container .hr{
+    border-bottom: 10px solid orange;
+    border-radius: 0 0 10px 10px;
+    margin-bottom: 80px;
+    box-shadow: 5px 5px 20px 5px #fcd14f;
+}
+.item{
+    display: flex;
+    justify-content: space-around;
+}
+
+.info{
+    display: flex;
+    margin-top: 50px;
+}
+
+.desc p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #393939;
+}
+.desc address{
+    margin-top: 10px;
+    color: #393939;
+
+}
